@@ -2,3 +2,23 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+#We are about to play a number guessing game.
+The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
+Let us set the random number to X which is a number between 1 to 10.
+Let us set the number of attempts to 3.
+Start the game.
+Get Users input.
+Ask User to guess a number between 1 to 10,
+Read the Users guess.
+If guess equals secret number: Display “Congratulations! You guessed the right number”.
+Exit the game.
+Else,
+Let the user guess another number. 
+If it is an incorrect guess 
+Display as incorrect “Try Again”.
+Else,
+Let the user get the third attempt
+Display “Sorry you are out of guesses. The secret number was “+ secret number”.
+Exit the game.
+
+    

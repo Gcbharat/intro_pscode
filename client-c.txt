@@ -2,3 +2,18 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+#Pseudocode:
+BEGIN
+    SET max_products TO 50
+    SET products_per_package TO 2
+
+    // Calculate maximum number of packages
+    SET max_packages TO max_products / products_per_package
+
+    // Print numbers from 2 to 50, counting by twos
+    FOR i FROM 1 TO max_packages DO
+        SET number_of_products TO i * products_per_package
+        PRINT number_of_products
+    END FOR
+END
+

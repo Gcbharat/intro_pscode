@@ -1,4 +1,11 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+BEGIN
+    // Define the warehouse grid. Set the directions to north, south east or west in X and Y coordinators.
+The start and target locations for a customer is set.
+A function will set the movement of customer’s position in the specified direction.
+The loop continues until the customer reaches the target location. The position is checked where and which direction the customer is going.
+When the customer reaches the target location a message is printed.//
+END
 
